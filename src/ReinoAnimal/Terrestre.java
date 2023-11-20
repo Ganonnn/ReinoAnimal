@@ -6,12 +6,17 @@ public class Terrestre extends Animal{
 	String regiao; 
 	boolean possuiPelo; 
 	
-	//metodo que imprimi que o animal esta comendo
+	//metodo que imprime que o animal esta comendo
 	public void comer() {
 		System.out.println("O animal terrestre esta comendo...");;
 	}
 	
-	//construtor pra dar o valor do atributo do animal terrestre
+	//metodo que imprime que o animal está se movendo
+	public void mover() {
+		System.out.println("O animal está se movendo...");
+	}
+	
+	//metodo que imprime os atributos do animal terrestre
 	public void perfil() {
 		System.out.println("Especie: " + getEspecie());
 		System.out.println("Sexo: " + getSexo());
@@ -20,7 +25,7 @@ public class Terrestre extends Animal{
 		System.out.println("Possui pelo: " + isPossuiPelo());
 	}
 	
-	//construtor pra dar o valor do atributo do animal aquatico
+	//construtor pra dar o valor do atributo do animal terrestre
 	public Terrestre(String especie, String sexo, String dtNascimento, String regiao,
 			boolean possuiPelo) {
 		super(especie, sexo, dtNascimento, getContador());

@@ -12,7 +12,7 @@ public class Animal {
     
 	//metodo que imprime que o animal esta comendo
 	public void comer() {
-		System.out.println("“O animal está comendo…");
+		System.out.println("O animal est� comendo...");
 	}
     
 	//imprimi os atributos do animal
